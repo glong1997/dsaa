@@ -55,6 +55,7 @@
     - [剑指 Offer 25.合并两个排序的链表](剑指offer/25.合并两个排序的链表.md)
 - <details><summary><b>动态规划</b></summary>
 
+    - [70.爬楼梯](leetcode/70.爬楼梯.md)
     - [剑指 Offer 10- I.斐波那契数列](剑指offer/10-I.斐波那契数列.md)
 - <details><summary><b>递归和回溯</b></summary>
 
