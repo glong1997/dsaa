@@ -1,5 +1,4 @@
-* 引言
-    * [简介](README.md)
+* [简介](README.md)
 
 
 - <details><summary><b>数组</b></summary>

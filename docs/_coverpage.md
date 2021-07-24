@@ -1,4 +1,4 @@
-<img width="160px" height="160px" style="border-radius: 50%" bor src="../img/k7.ico">
+<img width="160px" height="160px" style="border-radius: 50%" bor src="./img/k7.ico">
 
 # 《LeetCode/剑指offer》
 
