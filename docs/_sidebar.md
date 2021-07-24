@@ -34,8 +34,14 @@
 
 - <details><summary><b>树</b></summary>
 
+    - [94.二叉树的中序遍历](leetcode/94.二叉树的中序遍历.md)
     - [剑指 Offer 04.二维数组中的查找](剑指offer/04.二维数组中的查找.md)
     - [剑指 Offer 07.重建二叉树](剑指offer/07.重建二叉树.md)
+    - 剑指 Offer 26.树的子结构
+    - 剑指 Offer 27. 二叉树的镜像
+    - 剑指 Offer 28.对称的二叉树
+    - [剑指 Offer 55 - I.二叉树的深度](55-I.二叉树的深度.md)
+    - [剑指 Offer 55 - II.平衡二叉树](剑指offer/55-II.平衡二叉树.md)
 - <details><summary><b>二分查找</b></summary>
 
     - [剑指 Offer 50.第一个只出现一次的字符](剑指offer/50.第一个只出现一次的字符.md)
@@ -49,6 +55,12 @@
 - <details><summary><b>动态规划</b></summary>
 
     - [剑指 Offer 10- I.斐波那契数列](剑指offer/10-I.斐波那契数列.md)
+- <details><summary><b>递归和回溯</b></summary>
+
+    - [39.组合总和](leetcode/39.组合总和.md)
+    - [46.全排列](leetcode/46.全排列.md)
+    - [78.子集](leetcode/78.子集.md)
+
 - <details><summary><b>DFS和BFS</b></summary>
 
     - [剑指 Offer 12.矩阵中的路径](剑指offer/12.矩阵中的路径.md)
