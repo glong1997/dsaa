@@ -57,9 +57,12 @@
     - [剑指 Offer 10- I.斐波那契数列](剑指offer/10-I.斐波那契数列.md)
 - <details><summary><b>递归和回溯</b></summary>
 
+    - [17.电话号码的字母组合](leetcode/17.电话号码的字母组合.md)
+    - [22.括号生成](leetcode/22.括号生成.md)
     - [39.组合总和](leetcode/39.组合总和.md)
     - [46.全排列](leetcode/46.全排列.md)
     - [78.子集](leetcode/78.子集.md)
+    - [79.单词搜索/剑指 Offer 12.矩阵中的路径](剑指offer/12.矩阵中的路径.md)
 
 - <details><summary><b>DFS和BFS</b></summary>
 
