@@ -44,6 +44,7 @@
     - [剑指 Offer 55 - II.平衡二叉树](剑指offer/55-II.平衡二叉树.md)
 - <details><summary><b>二分查找</b></summary>
 
+    - [剑指 Offer 11.旋转数组的最小数字](剑指offer/11.旋转数组的最小数字.md)
     - [剑指 Offer 50.第一个只出现一次的字符](剑指offer/50.第一个只出现一次的字符.md)
 - <details><summary><b>双指针</b></summary>
 
