@@ -23,7 +23,7 @@
 
     - [2.两数相加](leetcode/2.两数相加.md)
     - [141.环形链表](leetcode/141.环形链表.md):fire:
-    - [146.LRU 缓存机制](leetcode/146.LRU 缓存机制.md):fire:
+    - [146.LRU 缓存机制](leetcode/146.LRU缓存机制.md):fire:
     - [剑指 Offer 24.反转链表](剑指offer/24.反转链表.md):fire:
 
 
