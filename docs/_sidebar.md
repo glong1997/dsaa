@@ -1,14 +1,14 @@
 * [简介](README.md)
 
 
-- <details><summary><b>数组</b></summary>
+* <details><summary><b>数组</b></summary>
 
     - [1.两数之和:fire:](leetcode/1.两数之和.md) 
     - [54.螺旋矩阵/剑指 Offer 29.顺时针打印矩阵](剑指offer/29.顺时针打印矩阵.md)
     - [剑指 Offer 03.数组中重复的数字](剑指offer/03.数组中重复的数字.md)
-    -  [剑指 Offer 39.数组中出现次数超过一半的数字](剑指offer/39.数组中出现次数超过一半的数字.md)
-    -  [剑指 Offer 56 - I.数组中数字出现的次数](剑指offer/56-I.数组中数字出现的次数.md)
-    -  [剑指 Offer 56 - II.数组中数字出现的次数 II](剑指offer/56-II.数组中数字出现的次数II.md)
+    - [剑指 Offer 39.数组中出现次数超过一半的数字](剑指offer/39.数组中出现次数超过一半的数字.md)
+    - [剑指 Offer 56 - I.数组中数字出现的次数](剑指offer/56-I.数组中数字出现的次数.md)
+    - [剑指 Offer 56 - II.数组中数字出现的次数 II](剑指offer/56-II.数组中数字出现的次数II.md)
 
 
 - <details><summary><b>字符串</b></summary>
@@ -38,22 +38,22 @@
   - [剑指 Offer 59-I.滑动窗口的最大值](剑指offer/59-I.滑动窗口的最大值.md)
   - [剑指 Offer 59-II.队列的最大值](剑指offer/59-II.队列的最大值.md)
 
-
-
 - <details><summary><b>树</b></summary>
 
     - [94.二叉树的中序遍历](leetcode/94.二叉树的中序遍历.md)
-    - [102.二叉树的层序遍历](leetcode/102.二叉树的层序遍历.md)
     - [101.对称二叉树/剑指 Offer 28.对称的二叉树](剑指offer/28.对称的二叉树.md)
+    - [102.二叉树的层序遍历/剑指 Offer 32-II.从上到下打印二叉树:fire:](剑指offer/32-II.从上到下打印二叉树.md)
+    - [113.路径总和II/剑指 Offer 34.二叉树中和为某一值的路径:fire:](剑指offer/34.二叉树中和为某一值的路径:fire:.md)
+    - [105. 从前序与中序遍历序列构造二叉树/剑指 Offer 07.重建二叉树:fire:](剑指offer/07.重建二叉树.md)
     - [226.翻转二叉树/剑指 Offer 27.二叉树的镜像](剑指offer/27.二叉树的镜像.md)
     - [236.二叉树的最近公共祖先/剑指 Offer 68 - II. 二叉树的最近公共祖先:fire:](leetcode/236.二叉树的最近公共祖先.md)
+    - [297.二叉树的序列化与反序列化/剑指 Offer 37.序列化二叉树](剑指offer/37.序列化二叉树.md)
     - [剑指 Offer 04.二维数组中的查找](剑指offer/04.二维数组中的查找.md)
-    - [剑指 Offer 07.重建二叉树:fire:](剑指offer/07.重建二叉树.md)
     - [剑指 Offer 26.树的子结构](剑指offer/26.树的子结构.md)
     - [剑指 Offer 32-I.从上到下打印二叉树](剑指offer/32-I.从上到下打印二叉树.md)
-    - [剑指 Offer 32-II.从上到下打印二叉树](剑指offer/32-II.从上到下打印二叉树.md)
     - [剑指 Offer 32-III.从上到下打印二叉树](剑指offer/32-III.从上到下打印二叉树.md)
     - [104. 二叉树的最大深度/剑指Offer 55 - I.二叉树的深度:fire:](55-I.二叉树的深度.md)
+    - [剑指 Offer 54.二叉搜索树的第 k 大节点](剑指offer/54.二叉搜索树的第k大节点.md)
     - [剑指 Offer 55 - II.平衡二叉树:fire:](剑指offer/55-II.平衡二叉树.md)
     
 - <details><summary><b>二分查找</b></summary>
