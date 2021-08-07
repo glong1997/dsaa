@@ -1,9 +1,9 @@
 * [简介](README.md)
 
 
-* <details><summary><b>数组</b></summary>
+* 数组
 
-    - [1.两数之和:fire:](leetcode/1.两数之和.md) 
+    - [1.两数之和:fire:](leetcode/1.两数之和.md)
     - [54.螺旋矩阵/剑指 Offer 29.顺时针打印矩阵](剑指offer/29.顺时针打印矩阵.md)
     - [剑指 Offer 03.数组中重复的数字](剑指offer/03.数组中重复的数字.md)
     - [剑指 Offer 39.数组中出现次数超过一半的数字](剑指offer/39.数组中出现次数超过一半的数字.md)
@@ -11,7 +11,7 @@
     - [剑指 Offer 56 - II.数组中数字出现的次数 II](剑指offer/56-II.数组中数字出现的次数II.md)
 
 
-- <details><summary><b>字符串</b></summary>
+- 字符串
 
     - [5.最长回文子串](leetcode/5.最长回文子串.md)
     - [剑指 Offer 05.替换空格](剑指offer/05.替换空格.md)
@@ -19,16 +19,26 @@
     - [剑指 Offer 50.第一个只出现一次的字符](剑指offer/50.第一个只出现一次的字符.md)
     - [剑指 Offer 58-II.左旋转字符串](剑指offer/58-II.左旋转字符串.md)
 
-- <details><summary><b>链表</b></summary>
+- 链表
 
     - [2.两数相加](leetcode/2.两数相加.md)
+    
+    - [138.复制带随机指针的链表/剑指 Offer 35.复杂链表的复制)](剑指offer/35.复杂链表的复制.md)
+    
     - [141.环形链表:fire:](leetcode/141.环形链表.md)
+    
+    - [142.环形链表 II/剑指 Offer 23.链表中环的入口结点:fire:](剑指offer/23.链表中环的入口结点.md)
+    
     - [146.LRU 缓存机制:fire:](leetcode/146.LRU缓存机制.md)
-    - [剑指 Offer 23.链表中环的入口结点](剑指offer/23.链表中环的入口结点.md)
+    
+    - [160.相交链表/剑指 Offer 52.两个链表的第一个公共节点](剑指offer/52.两个链表的第一个公共节点.md)
+    
     - [剑指 Offer 24.反转链表:fire:](剑指offer/24.反转链表.md)
+    
+      
 
 
-- <details><summary><b>栈、队列和滑动窗口</b></summary>
+- 栈、队列和滑动窗口
 
   - [3.无重复字符的最长子串](leetcode/3.无重复字符的最长子串.md)
   - [20.有效的括号](leetcode/20.有效的括号.md)
@@ -39,7 +49,7 @@
   - [剑指 Offer 59-I.滑动窗口的最大值](剑指offer/59-I.滑动窗口的最大值.md)
   - [剑指 Offer 59-II.队列的最大值](剑指offer/59-II.队列的最大值.md)
 
-- <details><summary><b>树</b></summary>
+- 树
 
     - [94.二叉树的中序遍历:fire:](leetcode/94.二叉树的中序遍历.md)
     - [144.二叉树的前序遍历:fire:](leetcode/144.二叉树的前序遍历.md)
@@ -61,14 +71,14 @@
     - [110.平衡二叉树/剑指 Offer 55 - II.平衡二叉树:fire:](剑指offer/55-II.平衡二叉树.md)
     - [剑指 Offer 54.二叉搜索树的第 k 大节点](剑指offer/54.二叉搜索树的第k大节点.md)
 
-- <details><summary><b>二分查找</b></summary>
+- 二分查找
 
     - [34.在排序数组中查找元素的第一个和最后一个位置/剑指 Offer 53-I.在排序数组中查找数字I](剑指offer/53-I.在排序数组中查找数字I.md)
     - [154.寻找旋转排序数组中的最小值 II/剑指 Offer 11.旋转数组的最小数字](剑指offer/11.旋转数组的最小数字.md)
     - [剑指 Offer 50.第一个只出现一次的字符](剑指offer/50.第一个只出现一次的字符.md)
     - [剑指 Offer 53-II.0～n-1中缺失的数字](剑指offer/53-II.0～n-1中缺失的数字.md)
     
-- <details><summary><b>双指针</b></summary>
+- 双指针
 
     - [11.盛最多水的容器](leetcode/11.盛最多水的容器.md)
     - [19.删除链表的倒数第 N 个结点](leetcode/19.删除链表的倒数第N个结点.md)
@@ -79,8 +89,9 @@
     - [剑指 Offer 18.删除链表的节点](剑指offer/18.删除链表的节点.md)
     - [剑指 Offer 21.调整数组顺序使奇数位于偶数前面](剑指offer/21.调整数组顺序使奇数位于偶数前面.md)
     - [剑指 Offer 22.链表中倒数第k个节点](剑指offer/22.链表中倒数第k个节点.md)
+    - [剑指 Offer 66.构建乘积数组](剑指offer/66.构建乘积数组.md)
     
-- <details><summary><b>动态规划</b></summary>
+- 动态规划
 
     - [19.正则表达式匹配/剑指 Offer 19. 正则表达式匹配](剑指offer/19.正则表达式匹配.md)
     - [62.不同路径](leetcode/62.不同路径.md)
@@ -90,7 +101,7 @@
     - [121.买卖股票的最佳时机/剑指 Offer 63.股票的最大利润](剑指offer/63.股票的最大利润.md)
     - [剑指 Offer 10- I.斐波那契数列](剑指offer/10-I.斐波那契数列.md)
     
-- <details><summary><b>递归和回溯</b></summary>
+- 递归和回溯
 
     - [17.电话号码的字母组合](leetcode/17.电话号码的字母组合.md)
     - [22.括号生成](leetcode/22.括号生成.md)
@@ -99,27 +110,27 @@
     - [46.全排列](leetcode/46.全排列.md)
     - [78.子集](leetcode/78.子集.md)
     
-- <details><summary><b>DFS和BFS</b></summary>
+- DFS和BFS
 
     - [79.单词搜索/剑指 Offer 12.矩阵中的路径](剑指offer/12.矩阵中的路径.md)
     - [剑指 Offer 13.机器人的运动范围](剑指offer/13.机器人的运动范围.md)
     - [剑指 Offer 17.打印从1到最大的n位数](剑指offer/17.打印从1到最大的n位数.md)
     
-- <details><summary><b>排序</b></summary>
+- 排序
 
     - [剑指 Offer 40.最小的 k 个数:fire:](剑指offer/40.最小的k个数.md)
     
-- <details><summary><b>贪婪算法</b></summary>
+- 贪婪算法
 
     - [56.合并区间](leetcode/56.合并区间.md)
 
-- <details><summary><b>数学</b></summary>
+- 数学
 
     - [48.旋转图像](leetcode/48.旋转图像.md)
     - [55.跳跃游戏](leetcode/55.跳跃游戏.md)
     - [剑指 Offer 66.构建乘积数组](https://leetcode-cn.com/problems/two-sum/)
 
-- <details><summary><b>位运算</b></summary>
+- 位运算
 
     - [剑指 Offer 15.二进制中 1 的个数](剑指offer/15.二进制中1的个数.md)
 
