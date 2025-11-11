@@ -1,249 +1,620 @@
-# 《LeetCode/剑指offer》
+# 每日热点新闻汇总
 
-[<img src="https://img.shields.io/badge/%E7%A4%BA%E4%BE%8B-%E6%AC%A2%E8%BF%8E%E8%AE%BF%E9%97%AE-important">](https://github.com/glong1997)
+**日期:** 2025-11-11
+**生成时间:** 2025-11-11 23:38:49
+**总新闻数:** 298
 
-> 《LeetCode/剑指offer》
+## 未知来源
 
-## 导航
+### 1. [唐诡3热度破万](https://s.weibo.com/weibo?q=%23%E5%94%90%E8%AF%A13%E7%83%AD%E5%BA%A6%E7%A0%B4%E4%B8%87%23)
 
-- [算法学习建议](#算法学习建议)
-- [时间复杂度](#时间复杂度)
-- [空间复杂度](#空间复杂度)
-- [二叉树](#二叉树)
-- [滑动窗口](#滑动窗口)
-- [回溯](#回溯)
-- [动态规划](#动态规划)
+### 2. [英国海边出现巨型海怪](https://s.weibo.com/weibo?q=%23%E8%8B%B1%E5%9B%BD%E6%B5%B7%E8%BE%B9%E5%87%BA%E7%8E%B0%E5%B7%A8%E5%9E%8B%E6%B5%B7%E6%80%AA%23)
 
-- [剑指offer](#剑指offer)
+### 3. [第十五届全运会](https://s.weibo.com/weibo?q=%23%E7%AC%AC%E5%8D%81%E4%BA%94%E5%B1%8A%E5%85%A8%E8%BF%90%E4%BC%9A%23)
 
-## 算法学习建议
+### 4. [金鸡奖提名](https://s.weibo.com/weibo?q=%23%E9%87%91%E9%B8%A1%E5%A5%96%E6%8F%90%E5%90%8D%23)
 
-强推B站UP，[代码随想录](https://space.bilibili.com/525438321)和[爱学习的饲养员](https://space.bilibili.com/31337561)，代码随想录的Carl提供了很多算法的PDF文件，爱学习的饲养员视频特别适合入门小白。
+### 5. [乒乓球男单前8号种子出局一半](https://s.weibo.com/weibo?q=%23%E4%B9%92%E4%B9%93%E7%90%83%E7%94%B7%E5%8D%95%E5%89%8D8%E5%8F%B7%E7%A7%8D%E5%AD%90%E5%87%BA%E5%B1%80%E4%B8%80%E5%8D%8A%23)
 
-刷剑指offer，题解可以看K神的[图解算法数据结构](https://leetcode-cn.com/leetbook/detail/illustration-of-algorithm/)，解题思路非常清晰易懂。
+### 6. [秋假](https://s.weibo.com/weibo?q=%23%E7%A7%8B%E5%81%87%23)
 
-## 时间复杂度
+### 7. [金银错 李昀锐](https://s.weibo.com/weibo?q=%23%E9%87%91%E9%93%B6%E9%94%99%20%E6%9D%8E%E6%98%80%E9%94%90%23)
 
-```markdown
-# 时间复杂度：
-    算法的执行效率
-    算法的执行时间和算法的输入值之间的关系
-```
+### 8. [AL](https://s.weibo.com/weibo?q=%23AL%23)
 
+### 9. [威廉王子 家中困难](https://s.weibo.com/weibo?q=%23%E5%A8%81%E5%BB%89%E7%8E%8B%E5%AD%90%20%E5%AE%B6%E4%B8%AD%E5%9B%B0%E9%9A%BE%23)
 
+### 10. [双十一期间多名主播喊破了肺泡](https://s.weibo.com/weibo?q=%23%E5%8F%8C%E5%8D%81%E4%B8%80%E6%9C%9F%E9%97%B4%E5%A4%9A%E5%90%8D%E4%B8%BB%E6%92%AD%E5%96%8A%E7%A0%B4%E4%BA%86%E8%82%BA%E6%B3%A1%23)
 
-```java
-public static int test(int num){
-    int total = 0;
-    for(int i = 0; i <= num; i++){
-        total += i;
-    }
-    return total;
-}
-```
+### 11. [余华你知道你这句话救了多少人吗](https://s.weibo.com/weibo?q=%23%E4%BD%99%E5%8D%8E%E4%BD%A0%E7%9F%A5%E9%81%93%E4%BD%A0%E8%BF%99%E5%8F%A5%E8%AF%9D%E6%95%91%E4%BA%86%E5%A4%9A%E5%B0%91%E4%BA%BA%E5%90%97%23)
 
-以上算法的时间复杂度为O(n)
+### 12. [iPhone18Pro升级工艺](https://s.weibo.com/weibo?q=%23iPhone18Pro%E5%8D%87%E7%BA%A7%E5%B7%A5%E8%89%BA%23)
 
-## 空间复杂度
+### 13. [男子收割玉米突发意外抢救无效去世](https://s.weibo.com/weibo?q=%23%E7%94%B7%E5%AD%90%E6%94%B6%E5%89%B2%E7%8E%89%E7%B1%B3%E7%AA%81%E5%8F%91%E6%84%8F%E5%A4%96%E6%8A%A2%E6%95%91%E6%97%A0%E6%95%88%E5%8E%BB%E4%B8%96%23)
 
-> 时间复杂度和空间复杂度只能二选一！
->
-> 面试时：和面试官讲清楚
->
-> 工作室：时间 > 空间！	空间（内存）换时间
+### 14. [女子网购理肤泉护肤品收到3块石头](https://s.weibo.com/weibo?q=%23%E5%A5%B3%E5%AD%90%E7%BD%91%E8%B4%AD%E7%90%86%E8%82%A4%E6%B3%89%E6%8A%A4%E8%82%A4%E5%93%81%E6%94%B6%E5%88%B03%E5%9D%97%E7%9F%B3%E5%A4%B4%23)
 
-```markdown
-# 空间复杂度：
-	算法存储空间和输入值之间的关系
-```
+### 15. [美主播阴阳怪气中国人遭特朗普反驳](https://s.weibo.com/weibo?q=%23%E7%BE%8E%E4%B8%BB%E6%92%AD%E9%98%B4%E9%98%B3%E6%80%AA%E6%B0%94%E4%B8%AD%E5%9B%BD%E4%BA%BA%E9%81%AD%E7%89%B9%E6%9C%97%E6%99%AE%E5%8F%8D%E9%A9%B3%23)
 
-## 二叉树
+### 16. [iPhonePocket发布](https://s.weibo.com/weibo?q=%23iPhonePocket%E5%8F%91%E5%B8%83%23)
 
-```markdown
-# 满二叉树
+### 17. [杨旭文 工作暂停庆祝破万](https://s.weibo.com/weibo?q=%23%E6%9D%A8%E6%97%AD%E6%96%87%20%E5%B7%A5%E4%BD%9C%E6%9A%82%E5%81%9C%E5%BA%86%E7%A5%9D%E7%A0%B4%E4%B8%87%23)
 
-# 完全二叉树：底部一定是从左到右连续的。满二叉树一定是完全二叉树。
+### 18. [年会不能停2 大鹏](https://s.weibo.com/weibo?q=%23%E5%B9%B4%E4%BC%9A%E4%B8%8D%E8%83%BD%E5%81%9C2%20%E5%A4%A7%E9%B9%8F%23)
 
-# 二叉搜索树
+### 19. [全运会乒乓球项目首金](https://s.weibo.com/weibo?q=%23%E5%85%A8%E8%BF%90%E4%BC%9A%E4%B9%92%E4%B9%93%E7%90%83%E9%A1%B9%E7%9B%AE%E9%A6%96%E9%87%91%23)
 
-# 平衡二叉搜索树：左子树和右子树高度差不能超过1。
-```
+### 20. [抢到我担的红包了](https://s.weibo.com/weibo?q=%23%E6%8A%A2%E5%88%B0%E6%88%91%E6%8B%85%E7%9A%84%E7%BA%A2%E5%8C%85%E4%BA%86%23)
 
-二叉树使用的是链式存储，可以理解为链表，只不过有两个指针，一个指向左孩子，一个指向右孩子。
+### 21. [两男子奸杀碎尸被拘禁女子被判死刑](https://s.weibo.com/weibo?q=%23%E4%B8%A4%E7%94%B7%E5%AD%90%E5%A5%B8%E6%9D%80%E7%A2%8E%E5%B0%B8%E8%A2%AB%E6%8B%98%E7%A6%81%E5%A5%B3%E5%AD%90%E8%A2%AB%E5%88%A4%E6%AD%BB%E5%88%91%23)
 
-二叉树的数据结构要会手写
+### 22. [何穗产后身材 像没生过](https://s.weibo.com/weibo?q=%23%E4%BD%95%E7%A9%97%E4%BA%A7%E5%90%8E%E8%BA%AB%E6%9D%90%20%E5%83%8F%E6%B2%A1%E7%94%9F%E8%BF%87%23)
 
-```java
-class TreeNode{
-    int val;
-    TreeNode left;
-    TreeNode right;
+### 23. [差点没认出来这是成龙](https://s.weibo.com/weibo?q=%23%E5%B7%AE%E7%82%B9%E6%B2%A1%E8%AE%A4%E5%87%BA%E6%9D%A5%E8%BF%99%E6%98%AF%E6%88%90%E9%BE%99%23)
 
-    TreeNode(){}
-    TreeNode(int val){this.val = val;}
-    TreeNode(int val, TreeNode left, TreeNode right){
-        this.val = val;
-        this.left = left;
-        this.right = right;
-    }
-}
-```
+### 24. [原来没散光是这样的](https://s.weibo.com/weibo?q=%23%E5%8E%9F%E6%9D%A5%E6%B2%A1%E6%95%A3%E5%85%89%E6%98%AF%E8%BF%99%E6%A0%B7%E7%9A%84%23)
 
-### 递归
+### 25. [许绍雄女儿再发文](https://s.weibo.com/weibo?q=%23%E8%AE%B8%E7%BB%8D%E9%9B%84%E5%A5%B3%E5%84%BF%E5%86%8D%E5%8F%91%E6%96%87%23)
 
-递归三要素：
+### 26. [爱奇艺2025破万剧](https://s.weibo.com/weibo?q=%23%E7%88%B1%E5%A5%87%E8%89%BA2025%E7%A0%B4%E4%B8%87%E5%89%A7%23)
 
-1. 确定`递归函数`的参数和返回值：
-确定哪些参数是递归的过程中需要处理的，那么就在递归函数⾥加上这个参数， 并且还要明确每次
-递归的返回值是什么进⽽确定递归函数的返回类型。
-2. 确定`终⽌条件`：
-写完了递归算法, 运⾏的时候，经常会遇到栈溢出的错误，就是没写终⽌条件或者终⽌条件写的不
-对，操作系统也是⽤⼀个栈的结构来保存每⼀层递归的信息，如果递归没有终⽌，操作系统的内存
-栈必然就会溢出。
-3. 确定单层递归的逻辑：
-确定每⼀层递归需要处理的信息。在这⾥也就会重复调⽤⾃⼰来实现递归的过程。
+### 27. [李昀锐发红包](https://s.weibo.com/weibo?q=%23%E6%9D%8E%E6%98%80%E9%94%90%E5%8F%91%E7%BA%A2%E5%8C%85%23)
 
+### 28. [早睡真的会失去很多](https://s.weibo.com/weibo?q=%23%E6%97%A9%E7%9D%A1%E7%9C%9F%E7%9A%84%E4%BC%9A%E5%A4%B1%E5%8E%BB%E5%BE%88%E5%A4%9A%23)
 
+### 29. [贺峻霖 别让研究生拍这些](https://s.weibo.com/weibo?q=%23%E8%B4%BA%E5%B3%BB%E9%9C%96%20%E5%88%AB%E8%AE%A9%E7%A0%94%E7%A9%B6%E7%94%9F%E6%8B%8D%E8%BF%99%E4%BA%9B%23)
 
-### 深度优先搜索
+### 30. [潘展乐孙杨晋级200自决赛](https://s.weibo.com/weibo?q=%23%E6%BD%98%E5%B1%95%E4%B9%90%E5%AD%99%E6%9D%A8%E6%99%8B%E7%BA%A7200%E8%87%AA%E5%86%B3%E8%B5%9B%23)
 
-前序、中序、后序遍历都是`深度优先搜索`，沿着一个方向一直搜索。一般使用递归实现。
+### 1. [大象肉多，为何没人养殖食用？](https://www.zhihu.com/question/1965734865191301577)
 
-### 广度优先搜索
+### 2. [北京银行、中国银行等多家银行关闭部分 App，为何银行纷纷进行 App 瘦身？你觉得使用更方便了吗？](https://www.zhihu.com/question/1971140281039550325)
 
-层序遍历
+### 3. [汉堡王中国也卖了，CPE 源峰将控股 83%，计划十年内门店翻三倍，能实现吗？汉堡王目前面临哪些问题？](https://www.zhihu.com/question/1971490395637638347)
 
-## 滑动窗口
+### 4. [北京一博物馆推出「蟑螂咖啡」，咖啡上放蟑螂粉和大麦虫，45 元一杯，如何评价这种「创新」？你敢喝吗？](https://www.zhihu.com/question/1971594990749745330)
 
-## 回溯
+### 5. [年轻人捡漏「烂尾车」，半价买哪吒， 12 万元抄底高合，‌是理性消费还是冒险行为？如何看待他们的选择？](https://www.zhihu.com/question/1970775220357936878)
 
-回溯和递归两者是相辅相成的，可以用于解决
+### 6. [杨瀚森连续 5 场坐板凳没出场，同时球队也没有将他下放 G 联赛，对这个安排你怎么看？](https://www.zhihu.com/question/1971535724693120809)
 
-```markdown
-1. 组合问题
-2. 切割问题
-3. 子集问题
-4. 排列问题：与组合相比，更强调元素的顺序
-5. 棋盘问题
-```
+### 7. [现代人经常说的邪修指的是什么？](https://www.zhihu.com/question/1956516426920756642)
 
-所有回溯都可抽象为树形结构。
+### 8. [皇帝是真的把夏雨荷忘记了，还是压根就没打算给她名分？](https://www.zhihu.com/question/664880414)
 
-回溯一定是递归问题，而递归一定是终止的。
+### 9. [初三儿子哭着说课堂完全听不懂，想请一对一辅导。丈夫坚决反对，说课堂不听，补课就是浪费钱。我该怎么办？](https://www.zhihu.com/question/1970998781324529762)
 
-for循环就是树的宽度，递归就是树的深度。
+### 10. [T1 三连冠后，如何看待之后 LPL 的发展？](https://www.zhihu.com/question/1971141519378474829)
 
-回溯算法一般是没有返回值的。`通用模板`为：
+### 11. [iPhone 18 系列十大升级曝光，将使用 2nm 工艺芯片，首次采用钢壳电池，还有哪些看点？](https://www.zhihu.com/question/1970403661520790690)
 
-```java
-void backtracking(参数){
-		if(终止条件) 叶子结点收集结果 return;
-		
-		for(集合元素){
-				处理结点;
-        递归函数;
-      	回溯撤销操作;	// 组合问题的撤销操作：(1, 2) -> (1, ) -> (1, 3)，如果没有撤销就是（1，2，3）
-		}
-}
-```
+### 12. [如何看待某博主连线马来西亚高中生，发现对方连 4×6 都算不对？](https://www.zhihu.com/question/1970080235845326398)
 
-## 动态规划
+### 13. [央视披露南京 15 死火灾现场，10 人被采取刑事强制措施，事故暴露了哪些安全问题？日常如何防范？](https://www.zhihu.com/question/1970802286071604877)
 
-动态规划题型可分为
+### 14. [第 30 届三星杯，申真谞执黑不敌廖元赫，止步 16 强，如何评价本场比赛？](https://www.zhihu.com/question/1971601892762153916)
 
-```markdown
-1. 动态规划基础，如斐波那契数列、跳楼梯
-2. 背包问题，大厂常考
-3. 打家劫舍
-4. 股票问题
-5. 子序列问题
-```
+### 15. [如何看待本田 2026 财年上半年营业利润 4381.44 亿日元下降 41.0%，预计全财年下降 54.7%?](https://www.zhihu.com/question/1970931941927780587)
 
-`动规五步曲`
+### 16. [如何看待「人民咖啡馆」致歉更名，却仅在招牌上加「小字」？大陆地区整改，港澳及海外仍保留是何用意？](https://www.zhihu.com/question/1969373739675263311)
 
-```markdown
-1. 确定dp数组以及下标的含义
-2. 确定递推公式/状态转移方程
-3. dp数组如何初始化
-4. 确定遍历顺序
-5. 举例推导dp数组
-```
+### 17. [如何看待姚明寄语乡村孩童「训练汗水比得分更珍贵」，这种重过程轻结果的理念对乡村体育发展有何意义？](https://www.zhihu.com/question/1971343929367574117)
 
+### 18. [如何评价梅西重返诺坎普？](https://www.zhihu.com/question/1971595823700772831)
 
+### 19. [我们应该如何看待「土木、机械等传统工科高度依赖 Windows 系统」这一现象？](https://www.zhihu.com/question/1970432042685667212)
 
+### 20. [歌手泫雅演出时晕倒，她曾一个月晕倒 12 次，确诊迷走神经性晕厥，这是一种什么病？怎样避免患上这种病？](https://www.zhihu.com/question/1971183777872049053)
 
+### 1. [Faker决赛为什么又选了冰鸟](https://search.bilibili.com/all?keyword=Faker%E5%86%B3%E8%B5%9B%E4%B8%BA%E4%BB%80%E4%B9%88%E5%8F%88%E9%80%89%E4%BA%86%E5%86%B0%E9%B8%9F)
 
-## 剑指offer
+### 2. [Gumayusi谈偶像Uzi给他颁奖](https://search.bilibili.com/all?keyword=Gumayusi%E8%B0%88%E5%81%B6%E5%83%8FUzi%E7%BB%99%E4%BB%96%E9%A2%81%E5%A5%96)
 
-| 题目                              | 解法                                                         |      |
-| --------------------------------- | ------------------------------------------------------------ | ---- |
-| 03.数组中重复的数字               | HashSet                                                      |      |
-| 04.二维数组中的查找               | 转换为二叉搜索树（左边小，右边大）                           |      |
-| 05.替换空格                       | 遍历字符数组                                                 |      |
-| 06.从尾到头打印链表               | 先进后出的栈                                                 |      |
-| 07.重建二叉树                     | HashMap保存中序结果，前序可知根是哪个。递归                  |      |
-| 09.用两个栈实现队列               |                                                              |      |
-| 10-I.斐波那契数列                 |                                                              |      |
-| 10-II.青蛙跳台阶问题              |                                                              |      |
-| 11.旋转数组的最小数字             | 二分法                                                       |      |
-| 12.矩阵中的路径                   | dfs，遍历 + dfs （下上右左）                                 |      |
-| 13.机器人的运动范围               | dfs，从左上角开始，dfs + 下右                                |      |
-|                                   |                                                              |      |
-|                                   |                                                              |      |
-| 15.二进制中1的个数                | 位运算                                                       |      |
-| 16.数值的整数次方                 |                                                              |      |
-|                                   |                                                              |      |
-| 18.删除链表的节点                 | 快慢双指针，快指针一直移动到空或目标值，快慢指针同时移动     |      |
-|                                   |                                                              |      |
-|                                   |                                                              |      |
-| 21.调整数组顺序使奇数位于偶数前面 | 对撞双指针，i循环判断奇数，j循环判断偶数，他们停下来的地方，进行交换 |      |
-| 22.链表中倒数第k个节点            | 快慢双指针，快指针先走k步，然后两个指针同时走，一直到快指针指向空 |      |
-| 23.链表中环的入口结点             | 快慢双指针，龟兔赛跑，速度不同。或者HashMap                  |      |
-| 24.反转链表                       | 双指针，需要tmp保存cur，最终返回pre                          |      |
-| 25.合并两个排序的链表             |                                                              |      |
-| 26.树的子结构                     | 递归，终止条件B为空，返回true，A为空或者A的val与B的不等，返回false |      |
-| 27.二叉树的镜像                   |                                                              |      |
-|                                   |                                                              |      |
-| 29.顺时针打印矩阵                 |                                                              |      |
-| 30.包含min函数的栈                | 一个主栈，一个辅助栈（只保留最小的）                         |      |
-| 31.栈的压入、弹出序列             |                                                              |      |
-| 32-I.从上到下打印二叉树           | 层序遍历                                                     |      |
-|                                   |                                                              |      |
-|                                   |                                                              |      |
-| 34.二叉树中和为某一值的路径       |                                                              |      |
-|                                   |                                                              |      |
-|                                   |                                                              |      |
-|                                   |                                                              |      |
-|                                   |                                                              |      |
-|                                   |                                                              |      |
-|                                   |                                                              |      |
-|                                   |                                                              |      |
-|                                   |                                                              |      |
-|                                   |                                                              |      |
-|                                   |                                                              |      |
-|                                   |                                                              |      |
-|                                   |                                                              |      |
-|                                   |                                                              |      |
-|                                   |                                                              |      |
-|                                   |                                                              |      |
-|                                   |                                                              |      |
-|                                   |                                                              |      |
-|                                   |                                                              |      |
-|                                   |                                                              |      |
-|                                   |                                                              |      |
-|                                   |                                                              |      |
-|                                   |                                                              |      |
-|                                   |                                                              |      |
-|                                   |                                                              |      |
-|                                   |                                                              |      |
-|                                   |                                                              |      |
-|                                   |                                                              |      |
-|                                   |                                                              |      |
-|                                   |                                                              |      |
-|                                   |                                                              |      |
-|                                   |                                                              |      |
-|                                   |                                                              |      |
-|                                   |                                                              |      |
-|                                   |                                                              |      |
-|                                   |                                                              |      |
+### 3. [职业选手锐评LOL新英雄亚恒](https://search.bilibili.com/all?keyword=%E8%81%8C%E4%B8%9A%E9%80%89%E6%89%8B%E9%94%90%E8%AF%84LOL%E6%96%B0%E8%8B%B1%E9%9B%84%E4%BA%9A%E6%81%92)
+
+### 4. [在日本荒郊野岭长大be like](https://search.bilibili.com/all?keyword=%E5%9C%A8%E6%97%A5%E6%9C%AC%E8%8D%92%E9%83%8A%E9%87%8E%E5%B2%AD%E9%95%BF%E5%A4%A7be%20like)
+
+### 5. [刘谦给罗永浩揭秘自己的魔术](https://search.bilibili.com/all?keyword=%E5%88%98%E8%B0%A6%E7%BB%99%E7%BD%97%E6%B0%B8%E6%B5%A9%E6%8F%AD%E7%A7%98%E8%87%AA%E5%B7%B1%E7%9A%84%E9%AD%94%E6%9C%AF)
+
+### 6. [汉堡王中国也被卖了](https://search.bilibili.com/all?keyword=%E6%B1%89%E5%A0%A1%E7%8E%8B%E4%B8%AD%E5%9B%BD%E4%B9%9F%E8%A2%AB%E5%8D%96%E4%BA%86)
+
+### 7. [95岁股神巴菲特发布谢幕信](https://search.bilibili.com/all?keyword=95%E5%B2%81%E8%82%A1%E7%A5%9E%E5%B7%B4%E8%8F%B2%E7%89%B9%E5%8F%91%E5%B8%83%E8%B0%A2%E5%B9%95%E4%BF%A1)
+
+### 8. [台风凤凰即将登陆我国](https://search.bilibili.com/all?keyword=%E5%8F%B0%E9%A3%8E%E5%87%A4%E5%87%B0%E5%8D%B3%E5%B0%86%E7%99%BB%E9%99%86%E6%88%91%E5%9B%BD)
+
+### 9. [全运会13岁小将打破亚洲纪录](https://search.bilibili.com/all?keyword=%E5%85%A8%E8%BF%90%E4%BC%9A13%E5%B2%81%E5%B0%8F%E5%B0%86%E6%89%93%E7%A0%B4%E4%BA%9A%E6%B4%B2%E7%BA%AA%E5%BD%95)
+
+### 10. [厦门帝王蟹暴击德国胃](https://search.bilibili.com/all?keyword=%E5%8E%A6%E9%97%A8%E5%B8%9D%E7%8E%8B%E8%9F%B9%E6%9A%B4%E5%87%BB%E5%BE%B7%E5%9B%BD%E8%83%83)
+
+### 11. [隋坡今日不探店教做罗汉虾](https://search.bilibili.com/all?keyword=%E9%9A%8B%E5%9D%A1%E4%BB%8A%E6%97%A5%E4%B8%8D%E6%8E%A2%E5%BA%97%E6%95%99%E5%81%9A%E7%BD%97%E6%B1%89%E8%99%BE)
+
+### 12. [当田一名遇上烟鬼组合](https://search.bilibili.com/all?keyword=%E5%BD%93%E7%94%B0%E4%B8%80%E5%90%8D%E9%81%87%E4%B8%8A%E7%83%9F%E9%AC%BC%E7%BB%84%E5%90%88)
+
+### 13. [UP主自制版Mac Pro](https://search.bilibili.com/all?keyword=UP%E4%B8%BB%E8%87%AA%E5%88%B6%E7%89%88Mac%20Pro)
+
+### 14. [Gumayusi开启吃播](https://search.bilibili.com/all?keyword=Gumayusi%E5%BC%80%E5%90%AF%E5%90%83%E6%92%AD)
+
+### 15. [牛魔王献唱不信邪](https://search.bilibili.com/all?keyword=%E7%89%9B%E9%AD%94%E7%8E%8B%E7%8C%AE%E5%94%B1%E4%B8%8D%E4%BF%A1%E9%82%AA)
+
+### 16. [十五运开幕式粤语版主题歌](https://search.bilibili.com/all?keyword=%E5%8D%81%E4%BA%94%E8%BF%90%E5%BC%80%E5%B9%95%E5%BC%8F%E7%B2%A4%E8%AF%AD%E7%89%88%E4%B8%BB%E9%A2%98%E6%AD%8C)
+
+### 17. [神20返回任务有序推进](https://search.bilibili.com/all?keyword=%E7%A5%9E20%E8%BF%94%E5%9B%9E%E4%BB%BB%E5%8A%A1%E6%9C%89%E5%BA%8F%E6%8E%A8%E8%BF%9B)
+
+### 18. [在鸟巢看KPL年总是何体验](https://search.bilibili.com/all?keyword=%E5%9C%A8%E9%B8%9F%E5%B7%A2%E7%9C%8BKPL%E5%B9%B4%E6%80%BB%E6%98%AF%E4%BD%95%E4%BD%93%E9%AA%8C)
+
+### 19. [锐评S15决赛雷达图](https://search.bilibili.com/all?keyword=%E9%94%90%E8%AF%84S15%E5%86%B3%E8%B5%9B%E9%9B%B7%E8%BE%BE%E5%9B%BE)
+
+### 20. [2025国创硬控名场面](https://search.bilibili.com/all?keyword=%E5%9B%BD%E5%88%9B%E7%A1%AC%E6%8E%A7%E5%90%8D%E5%9C%BA%E9%9D%A2)
+
+### 21. [修复航标UP主现身空军微电影](https://search.bilibili.com/all?keyword=%E4%BF%AE%E5%A4%8D%E8%88%AA%E6%A0%87UP%E4%B8%BB%E7%8E%B0%E8%BA%AB%E7%A9%BA%E5%86%9B%E5%BE%AE%E7%94%B5%E5%BD%B1)
+
+### 22. [餐饮的尽头是自助吗](https://search.bilibili.com/all?keyword=%E9%A4%90%E9%A5%AE%E7%9A%84%E5%B0%BD%E5%A4%B4%E6%98%AF%E8%87%AA%E5%8A%A9%E5%90%97)
+
+### 23. [买下零食店所有水送给环卫工人](https://search.bilibili.com/all?keyword=%E4%B9%B0%E4%B8%8B%E9%9B%B6%E9%A3%9F%E5%BA%97%E6%89%80%E6%9C%89%E6%B0%B4%E9%80%81%E7%BB%99%E7%8E%AF%E5%8D%AB%E5%B7%A5%E4%BA%BA)
+
+### 24. [无畏契约手游显卡套装即将上线](https://search.bilibili.com/all?keyword=%E6%97%A0%E7%95%8F%E5%A5%91%E7%BA%A6%E6%89%8B%E6%B8%B8%E6%98%BE%E5%8D%A1%E5%A5%97%E8%A3%85%E5%8D%B3%E5%B0%86%E4%B8%8A%E7%BA%BF)
+
+### 25. [GTA6跳票会造成什么影响](https://search.bilibili.com/all?keyword=GTA6%E8%B7%B3%E7%A5%A8%E4%BC%9A%E9%80%A0%E6%88%90%E4%BB%80%E4%B9%88%E5%BD%B1%E5%93%8D)
+
+### 26. [鬼灭之刃6年叙事混剪](https://search.bilibili.com/all?keyword=%E9%AC%BC%E7%81%AD%E4%B9%8B%E5%88%836%E5%B9%B4%E5%8F%99%E4%BA%8B%E6%B7%B7%E5%89%AA)
+
+### 27. [详解泡泡玛特的商业模式](https://search.bilibili.com/all?keyword=%E8%AF%A6%E8%A7%A3%E6%B3%A1%E6%B3%A1%E7%8E%9B%E7%89%B9%E7%9A%84%E5%95%86%E4%B8%9A%E6%A8%A1%E5%BC%8F)
+
+### 28. [烧玻璃版高雅人士](https://search.bilibili.com/all?keyword=%E7%83%A7%E7%8E%BB%E7%92%83%E7%89%88%E9%AB%98%E9%9B%85%E4%BA%BA%E5%A3%AB)
+
+### 29. [空军成立76周年主题微电影发布](https://search.bilibili.com/all?keyword=%E7%A9%BA%E5%86%9B%E6%88%90%E7%AB%8B76%E5%91%A8%E5%B9%B4%E4%B8%BB%E9%A2%98%E5%BE%AE%E7%94%B5%E5%BD%B1%E5%8F%91%E5%B8%83)
+
+### 30. [假发时隔17年再唱rap](https://search.bilibili.com/all?keyword=%E5%81%87%E5%8F%91%E6%97%B6%E9%9A%9417%E5%B9%B4%E5%86%8D%E5%94%B1rap)
+
+### 1. [日外务大臣欲替高市早苗发言被制止](https://www.toutiao.com/trending/7570942919026294827/)
+
+### 2. [攻击-11首次披露](https://www.toutiao.com/trending/7571355694989872649/)
+
+### 3. [第十五届全运会开幕式主题歌](https://www.toutiao.com/trending/7570917033114730515/)
+
+### 4. [台警方恐吓民众别转发大陆要抓沈伯洋](https://www.toutiao.com/trending/7571453199975042606/)
+
+### 5. [广东男篮大胜辽宁挺进全运会决赛](https://www.toutiao.com/trending/7571454803000393747/)
+
+### 6. [台前舰长怒呛日本暗示可能介入台海](https://www.toutiao.com/trending/7570657270552346678/)
+
+### 7. [小米汽车交付周期最快提至22周](https://www.toutiao.com/trending/7570992913396957227/)
+
+### 8. [张颂文聚餐救人获赠锦旗](https://www.toutiao.com/trending/7571331526307119167/)
+
+### 9. [鸠山由纪夫：日本不应干涉中国内政](https://www.toutiao.com/trending/7570598641426579499/)
+
+### 10. [金价回升 市场进一步看涨5000美元](https://www.toutiao.com/trending/7571451271312313910/)
+
+### 11. [“陕西咸阳千亩辣椒免费摘”不实](https://www.toutiao.com/trending/7571389167348400178/)
+
+### 12. [业内：A股要变盘了吗](https://www.toutiao.com/trending/7571443689667448363/)
+
+### 13. [跨境网赌大佬佘智江将被引渡回中国](https://www.toutiao.com/trending/7571332151585652787/)
+
+### 14. [《唐诡3》又火了](https://www.toutiao.com/trending/7571445137629253147/)
+
+### 15. [原配打“第三者”耳光8年后再被刑拘](https://www.toutiao.com/trending/7571373146477956651/)
+
+### 16. [猫咪趁主人睡着刷了一晚上手机](https://www.toutiao.com/trending/7571241021775380506/)
+
+### 17. [欧盟为何又对华为下手](https://www.toutiao.com/trending/7571440798152003091/)
+
+### 18. [吴宗宪谈郑丽文遭绿营围剿“亲中”](https://www.toutiao.com/trending/7570333046009315374/)
+
+### 19. [陈幸同队友倒地庆祝后发现比赛没结束](https://www.toutiao.com/trending/7571350224334176299/)
+
+### 20. [“银行直供房”能买吗](https://www.toutiao.com/trending/7571441916982595108/)
+
+### 21. [四川阿坝红旗特大桥垮塌 1月刚合龙](https://www.toutiao.com/trending/7570947279146926090/)
+
+### 22. [荒野手艺人张老六透露请假参加比赛](https://www.toutiao.com/trending/7570265752989761578/)
+
+### 23. [男子收割玉米时被收割机割到去世](https://www.toutiao.com/trending/7571119961742082091/)
+
+### 24. [四川阿坝红旗特大桥垮塌是何原因](https://www.toutiao.com/trending/7571462488873504283/)
+
+### 25. [国际奥委会主席考文垂来深圳参访](https://www.toutiao.com/trending/7570899013013225514/)
+
+### 26. [比亚迪“不务正业”布局汽车消费生态](https://www.toutiao.com/trending/7570540651465621554/)
+
+### 27. [四川阿坝红旗桥为何垮塌？官方回应](https://www.toutiao.com/trending/7571429253359717915/)
+
+### 28. [银行直售房激增 普通人机会来了吗](https://www.toutiao.com/trending/7571427302429429274/)
+
+### 29. [俄军借浓雾掩护进入红军城画面曝光](https://www.toutiao.com/trending/7571366550645591590/)
+
+### 30. [13岁于子迪破亚洲纪录夺冠](https://www.toutiao.com/trending/7570777901134577700/)
+
+### 1. [梁靖崑男单爆冷出局](https://www.douyin.com/hot/2302943)
+
+### 2. [玄龙08是什么机型](https://www.douyin.com/hot/2302473)
+
+### 3. [一起为全运健儿加油](https://www.douyin.com/hot/2303021)
+
+### 4. [差点忘了今天是光棍节](https://www.douyin.com/hot/2301966)
+
+### 5. [再读快一点就该唱起来了](https://www.douyin.com/hot/2302739)
+
+### 6. [家长距离老师只差教师资格证了](https://www.douyin.com/hot/2301971)
+
+### 7. [原来大秦王朝还有两副面孔](https://www.douyin.com/hot/2302462)
+
+### 8. [双11最后一天买什么](https://www.douyin.com/hot/2302169)
+
+### 9. [苞米地F4赶年底参加MAMA](https://www.douyin.com/hot/2301898)
+
+### 10. [婚礼有这表演还吃什么席](https://www.douyin.com/hot/2302246)
+
+### 11. [作诗高手快来评论区集合了](https://www.douyin.com/hot/2302463)
+
+### 12. [特种兵式野餐](https://www.douyin.com/hot/2302261)
+
+### 13. [寻找全场最奔放的大湾鸡](https://www.douyin.com/hot/2302821)
+
+### 14. [王曼昱4:3逆转范思琦](https://www.douyin.com/hot/2302429)
+
+### 15. [许我耀眼庆功宴](https://www.douyin.com/hot/2301927)
+
+### 16. [陈梦首秀4:0战胜孙铭阳](https://www.douyin.com/hot/2302376)
+
+### 17. [如何让转头和眼神更迷人](https://www.douyin.com/hot/2300822)
+
+### 18. [想念小鹿成了唯一的念想](https://www.douyin.com/hot/2301294)
+
+### 19. [维金斯扣篮绝杀骑士](https://www.douyin.com/hot/2302311)
+
+### 20. [谁跑得慢谁看家](https://www.douyin.com/hot/2301900)
+
+### 21. [中方向菲律宾提供紧急人道援助](https://www.douyin.com/hot/2302595)
+
+### 22. [唐诡团建了](https://www.douyin.com/hot/2301542)
+
+### 23. [蔡徐坤新歌What a Day](https://www.douyin.com/hot/2302605)
+
+### 24. [四川阿坝红旗特大桥垮塌](https://www.douyin.com/hot/2302883)
+
+### 25. [迪丽热巴身体状况](https://www.douyin.com/hot/2302530)
+
+### 26. [郭聪明准备手术](https://www.douyin.com/hot/2303028)
+
+### 27. [岳云鹏西安演唱会](https://www.douyin.com/hot/2302262)
+
+### 28. [陈可辛出车祸](https://www.douyin.com/hot/2302656)
+
+### 29. [刘宇莫问归期极致东方美学](https://www.douyin.com/hot/2302958)
+
+### 30. [陈赫生日爆改五哈团建](https://www.douyin.com/hot/2303024)
+
+### 1. [sansan0 /      TrendRadar](https://github.com/sansan0/TrendRadar)
+
+### 2. [google /      adk-go](https://github.com/google/adk-go)
+
+### 3. [usestrix /      strix](https://github.com/usestrix/strix)
+
+### 4. [bobeff /      open-source-games](https://github.com/bobeff/open-source-games)
+
+### 5. [TapXWorld /      ChinaTextbook](https://github.com/TapXWorld/ChinaTextbook)
+
+### 6. [serverless-dns /      serverless-dns](https://github.com/serverless-dns/serverless-dns)
+
+### 7. [yichuan-w /      LEANN](https://github.com/yichuan-w/LEANN)
+
+### 8. [yangshun /      tech-interview-handbook](https://github.com/yangshun/tech-interview-handbook)
+
+### 9. [microsoft /      ai-agents-for-beginners](https://github.com/microsoft/ai-agents-for-beginners)
+
+### 10. [LizardByte /      Sunshine](https://github.com/LizardByte/Sunshine)
+
+### 11. [dgtlmoon /      changedetection.io](https://github.com/dgtlmoon/changedetection.io)
+
+### 12. [davila7 /      claude-code-templates](https://github.com/davila7/claude-code-templates)
+
+### 13. [google /      adk-docs](https://github.com/google/adk-docs)
+
+### 14. [nvm-sh /      nvm](https://github.com/nvm-sh/nvm)
+
+### 15. [AtsushiSakai /      PythonRobotics](https://github.com/AtsushiSakai/PythonRobotics)
+
+### 16. [google /      adk-web](https://github.com/google/adk-web)
+
+### 17. [WICG /      email-verification-protocol](https://github.com/WICG/email-verification-protocol)
+
+### 1. [#相亲# 最近相亲了五个女生，四个都是老师，她们的相亲要求非常统一，就是不能降低她的生活质量，不能还房贷，不能过苦日子，老哥们，感觉相亲没有爱情了，跟菜市场卖菜一样，先看条件在买菜。](https://www.coolapk.com/feed/68576056)
+
+### 2. [#相亲#  大概介绍一下情况，她父亲和我父亲是同学。前段时间她父亲偶然知道我还单身，就想撮合着我俩。(我俩没见过面，也不认识)然后就找到了我父亲，两人聊了一会，然后就把姑娘推给了我父亲，让我父亲转推给我。当天上午我就加了微信，但是没通过。我还纳闷了一下，第二天我又申请添加，直到大中午才通过的。她的第一句话就是你有事吗？一下把我问懵逼。那我就只能介绍一下，我要再试探一下她父亲到底有没有跟他说了。结果她回了个哦，就没下文了。我还想着6点半了要下班，我跟她聊一下吧。如果她确实没想法的话，直接坦明了就行。后续就这样了[受虐滑稽]](https://www.coolapk.com/feed/68570899)
+
+### 3. [消息称富士康拆除iPhone Air大部分生产线](https://www.coolapk.com/feed/68585047)
+
+### 4. [#相亲#](https://www.coolapk.com/feed/68582025)
+
+### 5. [小米首款NAS真机曝光：命名Xiaomi智能存储](https://www.coolapk.com/feed/68569639)
+
+### 6. [现阶段所有厂商手机的硅碳负极电池都锁容在15%左右，标称越大，锁容率越高。例如7000毫安的电池，只有5800毫安可用。这就是为什么电池相交于前两年大了将近一倍，续航并没有长一倍的原因。](https://www.coolapk.com/feed/68583951)
+
+### 7. [你们觉得哪个才是手机的最佳尺寸呢？[受虐滑稽]我还是喜欢iQOO的大尺寸，手大的人喜欢用双手打字，打游戏的视觉效果也更好一些[喝茶]](https://www.coolapk.com/feed/68568698)
+
+### 8. [vivo Y500 Pro正式发布：1799元起售](https://www.coolapk.com/feed/68570934)
+
+### 9. [腾讯QQ群成立初衷曝光：为了约饭](https://www.coolapk.com/feed/68587246)
+
+### 10. [好了，一个月的友好交流，停止在了第一次见面[呲牙][呲牙][呲牙]](https://www.coolapk.com/feed/68564951)
+
+### 11. [跟老婆因为买油车还是电车吵了一架，我更倾向于买油车，因为家里有台现代从我小学就开始用10年多了到现在都没进修理厂，除了方向盘现在重了一点其它没啥毛病，本来打算买台丰田凯美瑞开久一点但老婆执意要买小米su7，怎么劝都没用。不是我不相信电车，电车是好看配置是高，但耐用性肯定是不如油车，家里本身就没那么富，花二十万几年就换车我是接受不了的。刚结婚几个月就吵了个大架 #酷安夜话# #我在酷安晒女友#](https://www.coolapk.com/feed/68558451)
+
+### 12. [兄弟们，太强了，直播间下单不用凑单，到货反300元。我再买一台！](https://www.coolapk.com/feed/68566685)
+
+### 13. [浅谈一下红米今年的这款K90PM，我是线下首发拿下，最近总看到说红米凭啥卖5000？我自己的感觉是我不会把品牌放在购买手机的第一因素，我关注价格，但是关注的是这个价格给的配置是否足够，对比iqoo，真我，一加，首先红米的品牌不会比这三家弱，这三个都能卖到5000为啥红米不行？再说回配置，这四家是各有卖点，真我是2亿长焦，一加是四等窄边，iqoo是三星屏幕，红米是外放，另外这几家其他配置给的也比较全，屏幕，马达，扬声器，拍照都有提升，对比小米我反而更喜欢红米的外观，那如果我想买米系手机，预算够，这放在以前红米没法选，只能选米数字，今年是给了个红米k90pm当做备选，我是感觉没问题的](https://www.coolapk.com/feed/68558114)
+
+### 14. [上午在老家镇上手机店把用了十多天的红米 tp4 卖掉了，刚才刷到老板的朋友圈，这也太黑了吧[捂脸][捂脸][捂脸]](https://www.coolapk.com/feed/68538699)
+
+### 15. [致态发布TiPlus 7100s固态硬盘：1TB版本659元](https://www.coolapk.com/feed/68560296)
+
+### 16. [这是这俩月打开oppo商城心情最愉悦的一次 甚至想下单一台[阴险]](https://www.coolapk.com/feed/68556242)
+
+### 17. [哈哈，拿到手，这是全网顾客首发吧，嘿嘿，真的薄，精致](https://www.coolapk.com/feed/68581510)
+
+### 18. [想把mi17pm换成mate70air，华为已经打电话让取货去了，犹豫中，来个明白的给个建议。](https://www.coolapk.com/feed/68591298)
+
+### 1. [逆天!鬼才吧友把石墩子做成键盘](https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28346988&amp;topic_name=%E9%80%86%E5%A4%A9%21%E9%AC%BC%E6%89%8D%E5%90%A7%E5%8F%8B%E6%8A%8A%E7%9F%B3%E5%A2%A9%E5%AD%90%E5%81%9A%E6%88%90%E9%94%AE%E7%9B%98)
+
+### 2. [S15选手审判大会:真神or路边一条](https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28346990&amp;topic_name=S15%E9%80%89%E6%89%8B%E5%AE%A1%E5%88%A4%E5%A4%A7%E4%BC%9A%3A%E7%9C%9F%E7%A5%9Eor%E8%B7%AF%E8%BE%B9%E4%B8%80%E6%9D%A1)
+
+### 3. [南宁学霸情史炸裂,实名裸奔全社死](https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28346973&amp;topic_name=%E5%8D%97%E5%AE%81%E5%AD%A6%E9%9C%B8%E6%83%85%E5%8F%B2%E7%82%B8%E8%A3%82%2C%E5%AE%9E%E5%90%8D%E8%A3%B8%E5%A5%94%E5%85%A8%E7%A4%BE%E6%AD%BB)
+
+### 4. [相亲遇公主?男生硬刚不伺候](https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28346970&amp;topic_name=%E7%9B%B8%E4%BA%B2%E9%81%87%E5%85%AC%E4%B8%BB%3F%E7%94%B7%E7%94%9F%E7%A1%AC%E5%88%9A%E4%B8%8D%E4%BC%BA%E5%80%99)
+
+### 5. [T1主力全留,明年剑指四连冠?](https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28347016&amp;topic_name=T1%E4%B8%BB%E5%8A%9B%E5%85%A8%E7%95%99%2C%E6%98%8E%E5%B9%B4%E5%89%91%E6%8C%87%E5%9B%9B%E8%BF%9E%E5%86%A0%3F)
+
+### 6. [高市早苗妄议台海,懂王火速割席](https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28346993&amp;topic_name=%E9%AB%98%E5%B8%82%E6%97%A9%E8%8B%97%E5%A6%84%E8%AE%AE%E5%8F%B0%E6%B5%B7%2C%E6%87%82%E7%8E%8B%E7%81%AB%E9%80%9F%E5%89%B2%E5%B8%AD)
+
+### 7. [女警翻车撞小孩,冷血扶车不救人](https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28346980&amp;topic_name=%E5%A5%B3%E8%AD%A6%E7%BF%BB%E8%BD%A6%E6%92%9E%E5%B0%8F%E5%AD%A9%2C%E5%86%B7%E8%A1%80%E6%89%B6%E8%BD%A6%E4%B8%8D%E6%95%91%E4%BA%BA)
+
+### 8. [叒开烧,SU7电池包遭刺穿原地起火](https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28346974&amp;topic_name=%E5%8F%92%E5%BC%80%E7%83%A7%2CSU7%E7%94%B5%E6%B1%A0%E5%8C%85%E9%81%AD%E5%88%BA%E7%A9%BF%E5%8E%9F%E5%9C%B0%E8%B5%B7%E7%81%AB)
+
+### 9. [格局打开,Faker封乌兹为LPL状元](https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28346983&amp;topic_name=%E6%A0%BC%E5%B1%80%E6%89%93%E5%BC%80%2CFaker%E5%B0%81%E4%B9%8C%E5%85%B9%E4%B8%BALPL%E7%8A%B6%E5%85%83)
+
+### 10. [中文歌杀进星巴克!崇洋怪跳脚破防](https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28346977&amp;topic_name=%E4%B8%AD%E6%96%87%E6%AD%8C%E6%9D%80%E8%BF%9B%E6%98%9F%E5%B7%B4%E5%85%8B%21%E5%B4%87%E6%B4%8B%E6%80%AA%E8%B7%B3%E8%84%9A%E7%A0%B4%E9%98%B2)
+
+### 11. [万业俱灭!日月同错三神屠仙收官](https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28347015&amp;topic_name=%E4%B8%87%E4%B8%9A%E4%BF%B1%E7%81%AD%21%E6%97%A5%E6%9C%88%E5%90%8C%E9%94%99%E4%B8%89%E7%A5%9E%E5%B1%A0%E4%BB%99%E6%94%B6%E5%AE%98)
+
+### 12. [鬼灭之刃预售破亿,冷档期真神降临](https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28346989&amp;topic_name=%E9%AC%BC%E7%81%AD%E4%B9%8B%E5%88%83%E9%A2%84%E5%94%AE%E7%A0%B4%E4%BA%BF%2C%E5%86%B7%E6%A1%A3%E6%9C%9F%E7%9C%9F%E7%A5%9E%E9%99%8D%E4%B8%B4)
+
+### 13. [航母神童投资人获赠福建舰手表](https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28346986&amp;topic_name=%E8%88%AA%E6%AF%8D%E7%A5%9E%E7%AB%A5%E6%8A%95%E8%B5%84%E4%BA%BA%E8%8E%B7%E8%B5%A0%E7%A6%8F%E5%BB%BA%E8%88%B0%E6%89%8B%E8%A1%A8)
+
+### 14. [Viper离队引爆lpl疯抢,老东家傻眼](https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28346985&amp;topic_name=Viper%E7%A6%BB%E9%98%9F%E5%BC%95%E7%88%86lpl%E7%96%AF%E6%8A%A2%2C%E8%80%81%E4%B8%9C%E5%AE%B6%E5%82%BB%E7%9C%BC)
+
+### 15. [厂商逼装ACE,玩家怒拒保硬盘](https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28346969&amp;topic_name=%E5%8E%82%E5%95%86%E9%80%BC%E8%A3%85ACE%2C%E7%8E%A9%E5%AE%B6%E6%80%92%E6%8B%92%E4%BF%9D%E7%A1%AC%E7%9B%98)
+
+### 16. [IG全员续约,神人班再战一年](https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28346978&amp;topic_name=IG%E5%85%A8%E5%91%98%E7%BB%AD%E7%BA%A6%2C%E7%A5%9E%E4%BA%BA%E7%8F%AD%E5%86%8D%E6%88%98%E4%B8%80%E5%B9%B4)
+
+### 17. [千元车费逼出人命,司机判无罪](https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28346976&amp;topic_name=%E5%8D%83%E5%85%83%E8%BD%A6%E8%B4%B9%E9%80%BC%E5%87%BA%E4%BA%BA%E5%91%BD%2C%E5%8F%B8%E6%9C%BA%E5%88%A4%E6%97%A0%E7%BD%AA)
+
+### 18. [加班赚钱给老婆花,专家又出神建议](https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28346948&amp;topic_name=%E5%8A%A0%E7%8F%AD%E8%B5%9A%E9%92%B1%E7%BB%99%E8%80%81%E5%A9%86%E8%8A%B1%2C%E4%B8%93%E5%AE%B6%E5%8F%88%E5%87%BA%E7%A5%9E%E5%BB%BA%E8%AE%AE)
+
+### 19. [尽人事警告,武大杨姐梅开二度](https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28346950&amp;topic_name=%E5%B0%BD%E4%BA%BA%E4%BA%8B%E8%AD%A6%E5%91%8A%2C%E6%AD%A6%E5%A4%A7%E6%9D%A8%E5%A7%90%E6%A2%85%E5%BC%80%E4%BA%8C%E5%BA%A6)
+
+### 20. [女装退货创新高,巨型吊牌防白嫖](https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28346933&amp;topic_name=%E5%A5%B3%E8%A3%85%E9%80%80%E8%B4%A7%E5%88%9B%E6%96%B0%E9%AB%98%2C%E5%B7%A8%E5%9E%8B%E5%90%8A%E7%89%8C%E9%98%B2%E7%99%BD%E5%AB%96)
+
+### 21. [决战天籁之巅!吧友在线评选好声音](https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28346965&amp;topic_name=%E5%86%B3%E6%88%98%E5%A4%A9%E7%B1%81%E4%B9%8B%E5%B7%85%21%E5%90%A7%E5%8F%8B%E5%9C%A8%E7%BA%BF%E8%AF%84%E9%80%89%E5%A5%BD%E5%A3%B0%E9%9F%B3)
+
+### 22. [胸部设计擦边,小鹏机器人被批媚男](https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28346931&amp;topic_name=%E8%83%B8%E9%83%A8%E8%AE%BE%E8%AE%A1%E6%93%A6%E8%BE%B9%2C%E5%B0%8F%E9%B9%8F%E6%9C%BA%E5%99%A8%E4%BA%BA%E8%A2%AB%E6%89%B9%E5%AA%9A%E7%94%B7)
+
+### 23. [宿舍“屎魔”连环作案,全楼破防疯找](https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28346922&amp;topic_name=%E5%AE%BF%E8%88%8D%E2%80%9C%E5%B1%8E%E9%AD%94%E2%80%9D%E8%BF%9E%E7%8E%AF%E4%BD%9C%E6%A1%88%2C%E5%85%A8%E6%A5%BC%E7%A0%B4%E9%98%B2%E7%96%AF%E6%89%BE)
+
+### 24. [11月10日笑料限定](https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28346967&amp;topic_name=11%E6%9C%8810%E6%97%A5%E7%AC%91%E6%96%99%E9%99%90%E5%AE%9A)
+
+### 25. [每天一个奇吧—盔甲吧](https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28346968&amp;topic_name=%E6%AF%8F%E5%A4%A9%E4%B8%80%E4%B8%AA%E5%A5%87%E5%90%A7%E2%80%94%E7%9B%94%E7%94%B2%E5%90%A7)
+
+### 26. [硬刚真Air标准!联想官方遭怒喷](https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28346966&amp;topic_name=%E7%A1%AC%E5%88%9A%E7%9C%9FAir%E6%A0%87%E5%87%86%21%E8%81%94%E6%83%B3%E5%AE%98%E6%96%B9%E9%81%AD%E6%80%92%E5%96%B7)
+
+### 27. [官方带头耍赖?皖二胎补贴被追回](https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28346928&amp;topic_name=%E5%AE%98%E6%96%B9%E5%B8%A6%E5%A4%B4%E8%80%8D%E8%B5%96%3F%E7%9A%96%E4%BA%8C%E8%83%8E%E8%A1%A5%E8%B4%B4%E8%A2%AB%E8%BF%BD%E5%9B%9E)
+
+### 28. [T1刚夺冠游戏就凉,LOL2强势踢馆](https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28346930&amp;topic_name=T1%E5%88%9A%E5%A4%BA%E5%86%A0%E6%B8%B8%E6%88%8F%E5%B0%B1%E5%87%89%2CLOL2%E5%BC%BA%E5%8A%BF%E8%B8%A2%E9%A6%86)
+
+### 29. [拳头开恩,教练喜提三次开麦权](https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28346936&amp;topic_name=%E6%8B%B3%E5%A4%B4%E5%BC%80%E6%81%A9%2C%E6%95%99%E7%BB%83%E5%96%9C%E6%8F%90%E4%B8%89%E6%AC%A1%E5%BC%80%E9%BA%A6%E6%9D%83)
+
+### 30. [网红专家的建议有多奇葩？](https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28347014&amp;topic_name=%E7%BD%91%E7%BA%A2%E4%B8%93%E5%AE%B6%E7%9A%84%E5%BB%BA%E8%AE%AE%E6%9C%89%E5%A4%9A%E5%A5%87%E8%91%A9%EF%BC%9F)
+
+### 1. [俄安全局称挫败乌劫持俄战机企图](https://wallstreetcn.com/livenews/3002881)
+
+### 2. [NeoCloud（新云）供应商Nebius Group NV下跌超5.6%，Meta Platforms跌1.5%。
+
+两家公司签署人工智能（AI）基础设施协议，Nebius三季度销售同比激增355%至1.46亿美元。](https://wallstreetcn.com/livenews/3002880)
+
+### 3. [据消息人士透露，美国众议院规则委员会将于今日美东时间18:00-18:30（北京时间明日07:00-07:30）左右开会，推进政府拨款计划（的程序性投票），以便明天（众议院全体）投票。（Politico）](https://wallstreetcn.com/livenews/3002879)
+
+### 4. [Prosus于11月3-7日按均价59.9133欧元回购股票90.2724万股，总计0.541亿欧元（折合0.623亿美元）。
+
+Naspers同期按均价1232.2187南非兰特回购股票39.0090万股，总计4.807亿兰特（折合0.276亿美元）。](https://wallstreetcn.com/livenews/3002878)
+
+### 5. [本田汽车将在美国北卡罗来纳州制造工厂投资96.58亿美元。](https://wallstreetcn.com/livenews/3002877)
+
+### 6. [低硫燃油夜盘收涨1.62%，铁矿石涨1.31%，燃油涨1.05%。](https://wallstreetcn.com/livenews/3002876)
+
+### 7. [德国央行发布新版债务刹车改革建议：德国（政府）必须确保能够重返健康的财务状态。
+
+希望能通过三步走方案实现德国债务趋于稳定。](https://wallstreetcn.com/livenews/3002875)
+
+### 8. [据知情人士透露，瑞幸咖啡股东大钲资本据称可能竞购Costa Coffee（咖世家）。
+
+大钲资本可能会直接、或通过瑞幸竞购Costa。（彭博）](https://wallstreetcn.com/livenews/3002872)
+
+### 9. [大摩研究触角伸向未上市公司，关注初创趋势与行业变革](https://wallstreetcn.com/livenews/3002871)
+
+### 10. [巴基斯坦首都发生自杀式炸弹袭击，致12死27伤](https://wallstreetcn.com/livenews/3002870)
+
+### 11. [现货黄金回落至4125美元下方，日内整体涨幅迅速收窄至0.3%。](https://wallstreetcn.com/livenews/3002869)
+
+### 12. [WTI原油期货维持超过1%的涨幅，持稳于日高60.78美元附近。
+
+据媒体报道，美军“福特”号航母打击群现已抵达加勒比海。](https://wallstreetcn.com/livenews/3002868)
+
+### 13. [泰国总理重申：将不再遵守泰柬和平联合声明](https://wallstreetcn.com/livenews/3002873)
+
+### 14. [欧洲STOXX 600指数日内涨幅达1.0%，报578.52点。](https://wallstreetcn.com/livenews/3002867)
+
+### 15. [Gemini Space Station Inc.（GEMI）低开14%。](https://wallstreetcn.com/livenews/3002863)
+
+### 16. [美股盘初，行业ETF多数走高，能源业ETF涨0.94%，银行业ETF涨0.47%，可选消费ETF与全球航空业ETF大致持平。
+
+网络股指数ETF跌0.28%，科技行业ETF跌0.62%，半导体ETF跌0.94%](https://wallstreetcn.com/livenews/3002861)
+
+### 17. [CoreWeave Inc.低开9.6%，创9月2日以来最差盘中表现。](https://wallstreetcn.com/livenews/3002864)
+
+### 18. [纳斯达克金龙中国指数美股盘初涨0.6%。](https://wallstreetcn.com/livenews/3002859)
+
+### 19. [标普500指数低开16.79点，跌幅0.25%，报6815.64点；
+
+道琼斯工业平均指数高开15.88点，涨幅0.03%，报47384.51点；
+
+纳斯达克综合指数低开119.45点，跌幅0.51%，报23407.72点。](https://wallstreetcn.com/livenews/3002858)
+
+### 20. [俄外长：若美方重启元首会晤提议，俄愿参与筹备](https://wallstreetcn.com/livenews/3002857)
+
+### 21. [美债期货上涨，美元走软，美国就业前景低迷](https://wallstreetcn.com/livenews/3002855)
+
+### 22. [DownDetector：一名用户报告称，谷歌旗下YouTube出现故障。](https://wallstreetcn.com/livenews/3002853)
+
+### 23. [摩根大通：预计英国央行将再降息三次，受就业数据疲软影响](https://wallstreetcn.com/livenews/3002852)
+
+### 24. [万科A：经协商，公司第一大股东深铁集团向公司提供不超过16.66亿元借款。](https://wallstreetcn.com/livenews/3002851)
+
+### 25. [商务部就美方暂停实施出口管制穿透性规则答记者问：暂停一年后双方将会继续讨论](https://wallstreetcn.com/livenews/3002850)
+
+### 26. [Stargate（星际之门）项目获得Blue Owl 30亿美元投资。（The Information）](https://wallstreetcn.com/livenews/3002862)
+
+### 27. [叙利亚大马士革国家博物馆多件文物被盗](https://wallstreetcn.com/livenews/3002849)
+
+### 28. [稳定币巨头Tether高薪挖角汇丰顶级黄金交易员，进军贵金属市场](https://wallstreetcn.com/livenews/3002848)
+
+### 29. [富力地产在港交所公告，其境内债券中一笔本金余额约人民币16.8亿元的债券已于相关债券持有人会议中通过重组方案。](https://wallstreetcn.com/livenews/3002847)
+
+### 30. [周二美股盘前你需要了解的全球要闻](https://wallstreetcn.com/livenews/3002846)
+
+### 1. [广西百色通报公职人员涉性侵女性案：3人被刑拘、免职调查](https://www.thepaper.cn/newsDetail_forward_31939980)
+
+### 2. [中国驻日本大使馆就日本领导人涉台错误言论答记者问](https://www.thepaper.cn/newsDetail_forward_31936367)
+
+### 3. [上海警方通报网传“某女编剧自称曾袭警后通过关系被放行”](https://www.thepaper.cn/newsDetail_forward_31938945)
+
+### 4. [1499元抢飞天？名酒的双11：电商补贴价再降，直播间低价引流，酒企“打假”](https://www.thepaper.cn/newsDetail_forward_31933460)
+
+### 5. [劣质硬盘横行5大电商平台，澎湃记者购买6块：发货地和发货人手机号码均相同](https://www.thepaper.cn/newsDetail_forward_31928723)
+
+### 6. [江西临川三中党总支书记梅军水查看教学楼屋顶漏水时意外坠楼，不幸去世](https://www.thepaper.cn/newsDetail_forward_31939158)
+
+### 7. [鸠山由纪夫驳高市早苗涉台言论：台湾是中国一部分，日本不应干涉中国内政](https://www.thepaper.cn/newsDetail_forward_31939993)
+
+### 8. [马上测｜实测十余家银行大额取款有多少“门槛”，有银行人员叹“诈骗太多”](https://www.thepaper.cn/newsDetail_forward_31941561)
+
+### 9. [莆田12岁女孩被虐死案二审宣判，生母：已提交材料要求严惩孩子生父](https://www.thepaper.cn/newsDetail_forward_31941251)
+
+### 10. [秋假将至，浙江众景区对中小学生免门票：最多可带2位家长](https://www.thepaper.cn/newsDetail_forward_31932917)
+
+### 11. [保持较高增长！10月我国新能源汽车销量首次超总销量50%](https://www.thepaper.cn/newsDetail_forward_31940420)
+
+### 12. [人民日报刊文：年轻干部不妨多些“自找苦吃”](https://www.thepaper.cn/newsDetail_forward_31938724)
+
+### 13. [李飞飞发表长文：空间智能是AI下一个前沿](https://www.thepaper.cn/newsDetail_forward_31939684)
+
+### 14. [退休矿工追讨千万股权案漫长的20年：胜诉后再遇执行立案难](https://www.thepaper.cn/newsDetail_forward_31927287)
+
+### 15. [释新闻｜高管连续辞职、被特朗普索赔：BBC为何陷入数十年来最大危机](https://www.thepaper.cn/newsDetail_forward_31940821)
+
+### 16. [教育教学工作之外，老师们的时间都去哪了](https://www.thepaper.cn/newsDetail_forward_31907809)
+
+### 17. [张颂文救人后收到大爱无疆锦旗：“换谁都会这样做的”](https://www.thepaper.cn/newsDetail_forward_31939949)
+
+### 18. [莆田12岁女孩被虐死案二审宣判：维持对继母许金花死刑判决](https://www.thepaper.cn/newsDetail_forward_31940899)
+
+### 19. [欧委会要求欧盟成员排除中兴、华为设备，外交部：损人不利己](https://www.thepaper.cn/newsDetail_forward_31940812)
+
+### 20. [马上评｜精准划分交通事故责任，告别“谁弱谁有理”](https://www.thepaper.cn/newsDetail_forward_31932483)
+
+### 1. [外媒称欧盟正研究强制成员国移除华为中兴设备，外交部回应](https://www.cls.cn/detail/2197114)
+
+### 2. [2张海报推动20cm涨停，机器人牛股预警：股价或随时快速下跌](https://www.cls.cn/detail/2197537)
+
+### 3. [存款“搬家”到股市？央行最新报告详解五组利率比价关系 资产配置调整和市值变化影响金融资产结构](https://www.cls.cn/detail/2197536)
+
+### 4. [什么信号？软银意外清仓英伟达 套现逾400亿](https://www.cls.cn/detail/2197262)
+
+### 5. [央行：实施好适度宽松的货币政策 强化货币政策的执行和传导](https://www.cls.cn/detail/2197285)
+
+### 6. [【焦点复盘】沪指冲高回落险守4000点，锂电材料股持续火热，机器人概念午后异军突起](https://www.cls.cn/detail/2197306)
+
+### 7. [最高至1500元！国际金价重回4100美元后，多家银行今日再上调积存金起购门槛](https://www.cls.cn/detail/2197016)
+
+### 8. [【数据看盘】实力游资、机构联手抢筹四方达 IF期指空头大幅减仓](https://www.cls.cn/detail/2197350)
+
+### 9. [【每日收评】深成指与创业板指双双跌超1%，两市成交额不足2万亿，大消费方向午后再度活跃](https://www.cls.cn/detail/2197237)
+
+### 10. [软银CFO回应为何清仓英伟达 iPhone销量火爆得到验证 | 今夜看点](https://www.cls.cn/detail/2197583)
+
+### 11. [刚捐了1万股茅台，段永平又捐了2.2亿](https://www.cls.cn/detail/2197178)
+
+### 12. [商务部新闻发言人就美方暂停实施出口管制穿透性规则答记者问](https://www.cls.cn/detail/2197634)
+
+### 13. [量子计算机加速迈向标准化 诺奖得主下场“组局” 多家芯片公司参与其中](https://www.cls.cn/detail/2197099)
+
+### 1. [英伟达](https://xueqiu.com/s/NVDA)
+
+### 2. [Vor Biopharma](https://xueqiu.com/s/VOR)
+
+### 3. [小鹏汽车](https://xueqiu.com/s/XPEV)
+
+### 4. [麦格米特](https://xueqiu.com/s/SZ002851)
+
+### 5. [香农芯创](https://xueqiu.com/s/SZ300475)
+
+### 6. [阿里巴巴](https://xueqiu.com/s/BABA)
+
+### 7. [中国中免](https://xueqiu.com/s/SH601888)
+
+### 8. [特斯拉](https://xueqiu.com/s/TSLA)
+
+### 9. [淳中科技](https://xueqiu.com/s/SH603516)
+
+### 10. [赛力斯](https://xueqiu.com/s/SH601127)
+
+### 11. [荣昌生物](https://xueqiu.com/s/09995)
+
+### 12. [特变电工](https://xueqiu.com/s/SH600089)
+
+### 13. [苹果](https://xueqiu.com/s/AAPL)
+
+### 14. [上海电力](https://xueqiu.com/s/SH600021)
+
+### 15. [CoreWeave](https://xueqiu.com/s/CRWV)
+
+### 16. [天际股份](https://xueqiu.com/s/SZ002759)
+
+### 17. [SanDisk](https://xueqiu.com/s/SNDK)
+
+### 18. [美光科技](https://xueqiu.com/s/MU)
+
+### 19. [阿特斯](https://xueqiu.com/s/SH688472)
+
+### 20. [海科新源](https://xueqiu.com/s/SZ301292)
+
+### 21. [贵州茅台](https://xueqiu.com/s/SH600519)
+
+### 22. [小米集团-W](https://xueqiu.com/s/01810)
+
+### 23. [阿特斯太阳能](https://xueqiu.com/s/CSIQ)
+
+### 24. [平潭发展](https://xueqiu.com/s/SZ000592)
+
+### 25. [合富中国](https://xueqiu.com/s/SH603122)
+
+### 26. [阳光电源](https://xueqiu.com/s/SZ300274)
+
+### 27. [小鹏汽车-W](https://xueqiu.com/s/09868)
+
+### 28. [多氟多](https://xueqiu.com/s/SZ002407)
+
+### 29. [胜宏科技](https://xueqiu.com/s/SZ300476)
+
+### 30. [福龙马](https://xueqiu.com/s/SH603686)
 
